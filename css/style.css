@@ -1,0 +1,206 @@
+#Home
+{
+    background-image: url(../image/events-heavenly-header.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+.overlay1
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+#theleft
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 60px;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+#Home h2
+{
+    margin-top: 200px;
+    font-size: 70px;
+    text-align: center;
+}
+.navbar
+{
+    background-color: black;
+}
+.navbar a {
+     padding: 20px 30px ; 
+     color: white;
+     font-size: 30px;
+    display: block;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.navbar a:hover{
+    color:  rgba(214, 46, 51 , 0.4);
+}
+
+.navbar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#text-home {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .navbar {padding-top: 15px;}
+  .navbar a {font-size: 18px;}
+}
+
+#slider
+{
+    margin: 100px auto;
+    width: 50%;
+}
+#slider div
+{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+#slider h3
+{
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+#slider .one{
+    display:block;
+}
+
+
+#section3
+{
+    background-image: url(../image/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 340px;
+}
+.container
+{
+    padding: 100px 10px;
+}
+.overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+.tim
+{
+    font-weight: 600;
+    padding: 60px;
+    border: 4px solid #fff;
+    font-size: 25px;
+}
+
+
+.container{
+    margin: auto;
+    width: 85%;
+}
+#contact .line1 h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color:#444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+ #contact .line1  p{
+    text-align: center;
+    font-weight: 400;
+    color:#777;
+    font-size: 20px
+} 
+#contact .info h3{
+    font-weight: bold;
+    color:#444;
+    font-size: 25px;
+}
+#contact .info p{
+    font-size: 16px;
+    color:#777;
+}
+
+#contact .icons{
+    margin-top:50px;
+}
+#contact .icons p{
+    margin-bottom: 35px;
+}
+#contact i{
+    margin-right: 20px;
+    color:#777;
+}
+#contact .email{
+    color:#D62E33 !important;
+}
+
+
+.social-media{
+    margin-top:60px;
+    color:#777;
+    
+}
+
+ .social-media i{
+    margin-right: 10px;
+    border:1px solid #333;
+    width:40px;
+    height: 40px;
+    padding-top: 10px;
+}
+ .social-media i:hover{
+    background-color: #D62E33;
+}
+ #contact form input,
+#contact form textarea{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 20px;
+} 
+
+#contact form button{
+    color:#fff;
+    background-color: #D62E33;
+    padding:15px 25px;
+}
+#num {
+    color: #D62E33;
+    font-size: 20px;
+}
+
+
+
+
